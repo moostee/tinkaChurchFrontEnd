@@ -13,6 +13,6 @@ import { TestimonyComponent } from './testimony/testimony.component';
   imports: [
     CommonModule
   ],
-  exports:[LoaderComponent,SliderComponent,NotificationComponent,OneLoveComponent,TestimonyComponent]
+  exports: [LoaderComponent,SliderComponent,NotificationComponent,OneLoveComponent,TestimonyComponent]
 })
 export class SharedModule { }

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "tinkaChurch",
+      "public": "dist/tinkaChurch",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
